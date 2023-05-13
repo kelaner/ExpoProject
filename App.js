@@ -1,14 +1,11 @@
-import { StyleSheet, Text, View } from 'react-native'
+import { NavigationContainer } from '@react-navigation/native';
 import React from 'react'
+import Index from './src'
 
-const App = () => {
-  return (
-    <View>
-      <Text>App</Text>
-    </View>
-  )
+export default function App() {
+    return (
+        <NavigationContainer>
+            <Index />
+        </NavigationContainer>
+    )
 }
-
-export default App
-
-const styles = StyleSheet.create({})
