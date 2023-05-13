@@ -21,10 +21,16 @@
             "adaptiveIcon": {
                 "foregroundImage": "./assets/adaptive-icon.png",
                 "backgroundColor": "#ffffff"
-            }
+            },
+            "package": "com.laner.ExpoProject"
         },
         "web": {
             "favicon": "./assets/favicon.png"
+        },
+        "extra": {
+            "eas": {
+                "projectId": "c9441db9-7b57-436c-8891-43ebec99584b"
+            }
         }
     }
 }
